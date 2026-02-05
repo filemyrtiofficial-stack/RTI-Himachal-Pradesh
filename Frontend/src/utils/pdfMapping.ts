@@ -217,6 +217,19 @@ const departmentToPDFMap: PDFMapping = {
   'RTI Himachal Pradesh Urban Development Department': 'RTI_Himachal_Pradesh_Urban_Development_Department.pdf',
   'RTI Himachal Pradesh Women & Child Development Department': 'RTI_Himachal_Pradesh_Women_&_Child_Development_Department.pdf',
   'RTI Himachal Pradesh Youth Services & Sports Department': 'RTI_Himachal_Pradesh_Youth_Services_&_Sports_Department.pdf',
+  'RTI Himachal Pradesh Fisheries Department': 'RTI_Himachal_Pradesh_Fisheries_Department.pdf',
+  'RTI Himachal Pradesh Forests Department': 'RTI_Himachal_Pradesh_Forests_Department.pdf',
+  'RTI Himachal Pradesh Environment, Science & Technology Department': 'RTI_Himachal_Pradesh_Environment,_Science_and_Technology_Department.pdf',
+  'RTI Himachal Pradesh Water Resources Department': 'RTI_Himachal_Pradesh_Water_Resources_Department.pdf',
+  'RTI Himachal Pradesh Food, Civil Supplies & Consumer Affairs Department': 'RTI_Himachal_Pradesh_Food,_Civil_Supplies_and_Consumer_Affairs_Department.pdf',
+  'RTI Himachal Pradesh Scheduled Castes Development Department': 'RTI_Himachal_Pradesh_Scheduled_Castes_Development_Department.pdf',
+  'RTI Himachal Pradesh Language, Art & Culture Department': 'RTI_Himachal_Pradesh_Language,_Art_and_Culture_Department.pdf',
+  'RTI Himachal Pradesh Tourism & Civil Aviation Department': 'RTI_Himachal_Pradesh_Tourism_and_Civil_Aviation_Department.pdf',
+  'RTI Himachal Pradesh Disaster Management Department': 'RTI_Himachal_Pradesh_Disaster_Management_Department.pdf',
+  'RTI Himachal Pradesh Personnel, Administrative Reforms & Rajbhasha Department': 'RTI_Himachal_Pradesh_Personnel,_Administrative_Reforms_and_Rajbhasha_Department.pdf',
+  'RTI Himachal Pradesh Planning, Economics & Statistics Department': 'RTI_Himachal_Pradesh_Planning,_Economics_and_Statistics_Department.pdf',
+  'RTI Himachal Pradesh Digital Technologies & Governance Department': 'RTI_Himachal_Pradesh_Digital_Technologies_and_Governance_Department.pdf',
+  'RTI Himachal Pradesh Archives Department': 'RTI_Himachal_Pradesh_Archives_Department.pdf',
 };
 
 /**

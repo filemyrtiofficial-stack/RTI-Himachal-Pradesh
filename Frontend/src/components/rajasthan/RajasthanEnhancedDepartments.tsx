@@ -1,4 +1,4 @@
-﻿import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 import { jammuAndKashmirDepartments } from '../../data/rajasthanDepartments';
 import { AnimatedSection } from '../common/AnimatedSection';
 import { PDFDownloadModal } from '../common/PDFDownloadModal';
@@ -45,7 +45,11 @@ export const RajasthanEnhancedDepartments: React.FC = () => {
                         {category.category}
                       </h3>
                       <ul className="space-y-0 -space-y-0.5">
-                        {category.items.map((dept) => (
+                        {(() => {
+                          if (index === 0) return category.items.slice(0, 8);
+                          if (index >= 5) return category.items.slice(0, 4);
+                          return category.items;
+                        })().map((dept) => (
                           <li key={dept} className="leading-none m-0 p-0">
                             <button
                               onClick={(e) => handleDepartmentClick(dept, e)}
